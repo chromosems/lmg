@@ -17,7 +17,7 @@
                    class="btn btn-info float-left mr-2">Edit</a>
                 <form method="post" action="{{action('TicketsController@destroy', $ticket->slug)}}" class="float-left">
                     @csrf
-                    <button type="submit" class="btn btn-warning">Delete</button>
+                    <button type="submit" class="btn btn-danger">Delete</button>
                 </form>
                 <div class="clearfix"></div>
             </div>
